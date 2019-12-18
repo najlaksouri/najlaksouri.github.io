@@ -61,12 +61,11 @@ body {
 
 	#myInput {
   		background-image: url('/css/searchicon.png');
-  		background-position: 10px 5px;
-  		background-repeat: no-repeat;
-  		width: 100%;
+		padding-right: 50px;
   		font-size: 16px;
-		padding: 12px 20px 12px 40px;
-  		border: 2px solid #ddd;
-  		margin-bottom: 10px;
+		padding: 8px 20px 12px 20px;
+  		border: 2px solid #D3D3D3;
+		border-radius: 20px;
+
 	}
 
