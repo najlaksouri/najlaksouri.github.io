@@ -1,16 +1,17 @@
-*Authors*
+# Authors
 
 N Ksouri (1), JA Castro-Mondragón (2,3), F Montardit-Tardà (1), J van Helden (2), B Contreras-Moreira (1,4,5), Y Gogorcena (1)
 
-    Estación Experimental de Aula Dei-CSIC, Zaragoza, Spain
-    Aix-Marseille Univ, Theory and Approaches of Genome Complexity (TAGC), Marseille, France.
-    Centre for Molecular Medicine Norway (NCMM), Nordic EMBL Partnership, University of Oslo, Norway.
-    Fundacion ARAID, Zaragoza, Spain
-    European Bioinformatics Institute EMBL-EBI, Hinxton, UK
+    1. Estación Experimental de Aula Dei-CSIC, Zaragoza, Spain
+    2. Aix-Marseille Univ, Theory and Approaches of Genome Complexity (TAGC), Marseille, France.
+    3. Centre for Molecular Medicine Norway (NCMM), Nordic EMBL Partnership, University of Oslo, Norway.
+    4. Fundacion ARAID, Zaragoza, Spain
+    5. European Bioinformatics Institute EMBL-EBI, Hinxton, UK
 
-Questions or comments, please contact: nksouri at eead.csic.es
+Questions or comments, please contact: nksouri@eead.csic.es
 
-Docker container
+***
+# Docker container
 
 A docker container with Regulatory Sequence Analysis Tools (RSAT) image is available here. If you have not set a docker engine on your machine, please see the instructions provided by the docker community for a simplified installation procedure.
 
