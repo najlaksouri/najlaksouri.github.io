@@ -1,29 +1,31 @@
-## Welcome to GitHub Pages
+*Authors*
 
-You can use the [editor on GitHub](https://github.com/najlaksouri/najlaksouri.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+N Ksouri (1), JA Castro-Mondragón (2,3), F Montardit-Tardà (1), J van Helden (2), B Contreras-Moreira (1,4,5), Y Gogorcena (1)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    Estación Experimental de Aula Dei-CSIC, Zaragoza, Spain
+    Aix-Marseille Univ, Theory and Approaches of Genome Complexity (TAGC), Marseille, France.
+    Centre for Molecular Medicine Norway (NCMM), Nordic EMBL Partnership, University of Oslo, Norway.
+    Fundacion ARAID, Zaragoza, Spain
+    European Bioinformatics Institute EMBL-EBI, Hinxton, UK
 
-### Markdown
+Questions or comments, please contact: nksouri at eead.csic.es
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Docker container
 
-```markdown
-Syntax highlighted code block
+A docker container with Regulatory Sequence Analysis Tools (RSAT) image is available here. If you have not set a docker engine on your machine, please see the instructions provided by the docker community for a simplified installation procedure.
 
-# Header 1
-## Header 2
-### Header 3
+Once docker is set up, you can get and run the RSAT docker image by typing the following command lines in the terminal:
 
-- Bulleted
-- List
+# Get the docker image
+docker pull ksouri1/rsat_nksouri
 
-1. Numbered
-2. List
+# Run the docker container
+docker run --rm -v ~/rsat_data:/packages/rsat/public_html/data/ -v ~/rsat_results:/home/rsat_user/rsat_results -it ksouri1/rsat_nksouri
 
-**Bold** and _Italic_ and `Code` text
+“rsat_results” and “rsat_data” are two local directories in the host machine serving as a persistant storage volume inside the RSAT docker container.
 
-[Link](url) and ![Image](src)
+Funding
+This work was partly funded by the Spanish Ministry of Economy and Competitiveness grants AGL2014-52063R, AGL2017-83358-R (MCIU/AEI/FEDER/UE); and the Government of Aragón with grants A44 and A09_17R, which were co-financed with FEDER funds. N Ksouri was hired by project AGL2014-52063R and now funded by a PhD fellowship awarded by the Government of Aragón.
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
