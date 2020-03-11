@@ -1,4 +1,4 @@
-# Authors
+### Authors
 
 N Ksouri (1), JA Castro-Mondragón (2,3), F Montardit-Tardà (1), J van Helden (2), B Contreras-Moreira (1,4,5), Y Gogorcena (1)
 
@@ -11,21 +11,22 @@ N Ksouri (1), JA Castro-Mondragón (2,3), F Montardit-Tardà (1), J van Helden (
 Questions or comments, please contact: nksouri@eead.csic.es
 
 ***
-# Docker container
+### Docker container
 
 A docker container with Regulatory Sequence Analysis Tools (RSAT) image is available here. If you have not set a docker engine on your machine, please see the instructions provided by the docker community for a simplified installation procedure.
 
 Once docker is set up, you can get and run the RSAT docker image by typing the following command lines in the terminal:
-
-# Get the docker image
+```
+ Get the docker image
 docker pull ksouri1/rsat_nksouri
 
 # Run the docker container
 docker run --rm -v ~/rsat_data:/packages/rsat/public_html/data/ -v ~/rsat_results:/home/rsat_user/rsat_results -it ksouri1/rsat_nksouri
+```
 
 “rsat_results” and “rsat_data” are two local directories in the host machine serving as a persistant storage volume inside the RSAT docker container.
 
-Funding
+### Funding
 This work was partly funded by the Spanish Ministry of Economy and Competitiveness grants AGL2014-52063R, AGL2017-83358-R (MCIU/AEI/FEDER/UE); and the Government of Aragón with grants A44 and A09_17R, which were co-financed with FEDER funds. N Ksouri was hired by project AGL2014-52063R and now funded by a PhD fellowship awarded by the Government of Aragón.
 ```
 
