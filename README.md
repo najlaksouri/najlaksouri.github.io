@@ -1,7 +1,6 @@
-This repository documents recipes to discover cis-regulatory motifs within proximal promoters of plants in RSAT::Plants.
+This repository documents recipes to discover cis-regulatory motifs within proximal promoters of plants in [RSAT::Plants](http://rsat.eead.csic.es/plants). 
 
-You can browse them at eead-csic-compbio.github.io/coexpression_motif_discovery/peach.
-
+You can browse them at [eead-csic-compbio.github.io/coexpression_motif_discovery/peach](https://eead-csic-compbio.github.io/coexpression_motif_discovery/peach).
 
 
 
